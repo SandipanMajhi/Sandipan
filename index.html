@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sandipan</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="access"> 
+        <button class="btn", onclick="toggle_space('text-space','short-intro');return false;">HOME</button>
+        <button class="btn", onclick="toggle_space('text-space','projects');return false;">PROJECTS</button>
+        <button class="btn", onclick="toggle_space('text-space','edu');return false;">ACADS</button>
+        <button class="btn", onclick="toggle_space('text-space','pubs');return false;">PAPERS</button>
+        <button class="btn", onclick="toggle_space('text-space','prize');return false;">PRIZES</button>
+    </div>
+
+    <div class="row">
+
+        <div class="column">
+            <img src="images/profile.jpg" alt="" id = "profile_pic">
+            <div class="contacts">
+                <a href="https://www.facebook.com/sandipan.majhi.1994", class="fa fa-facebook"></a>
+                <a href="mailto:sandipan.majhi@ieee.org", class="fa fa-google"></a>
+                <a href="https://github.com/SandipanMajhi", class= "fa fa-github"></a>
+            </div>
+        </div>
+
+        <div id = "text-space">
+            <div id="short-intro">
+                <h2 class="bio-head"><u>SHORT BIO</u></h2>
+                <p class="bio">I was a student of Computer Science and Engineering at Jadavpur University, Kolkata. I am interested in Natural Language Processing and understanding the hidden dynamics of human communication. I am also inclined to understand non-coding regions of DNA, which I want to pursue in future.</p>
+                <p class="bio">Recently, I was accepted as graduate student at The Johns Hopkins University, Baltimore, MD, USA.</p>
+                
+                <a href="Copy of CV_SandipanMajhi.pdf" download="CV_SandipanMajhi.pdf">My Complete CV here.</a>
+            </div> 
+
+            <div id="edu">
+                <h2 class="bio-head"><u>EDUCATION</u></h2>
+                <p class="bio">2017-2021 : B.E in CSE at Jadavpur University, Kolkata, India</p>
+                <p class="bio">2013-2016 : Indian Institute of Science, Bangalore (No Degree)</p>
+                <p class="bio">2011-2013 : Springdale High School,Kalyani</p>
+                <p class="bio">2004-2011 : Ramakrishna Mission Vidyapith, Purulia</p>
+
+                <h2 class="bio-head"><u>NATIONAL EXAMS</u></h2>
+                <p class="bio">Ranked 3112 nationally in GATE-CS 2022.</p>
+            </div>
+
+            <div id = "pubs">
+                <h2 class="bio-head"><u>PUBLICATIONS</u></h2>
+                <p class="pub-bio">Ghosh S., Bhattacharya R., Majhi S., Bhowmik S., Malakar S., Sarkar R. (2019)
+                    Textual Content Retrieval from Filled-in Form Images. Springer, Singapore. 
+                    https://doi.org/10.1007/978-981-13-9361-7_3 </p>
+                <p class="pub-bio">Baliga, C., Majhi, S., Mondal, K., Bhattacharjee, A., Vijayraghavan, K., 
+                    and Varadarajan,R., (2016) Rational Elicitation of cold-sensitive phenotypes, 
+                    Proc Natl Acad Sci U S A 113, E2506-2515 (PNAS)
+                    https://doi.org/10.1073/pnas.1604190113</p>
+            </div>
+
+            <div id='prize'>
+                <h2 class="bio-head"><u>RECENT PRIZES</u></h2>
+                <p class="pub-bio">2021 : Top 6 nationally in original paper idea presentation at SGiML, IEEE GRSS Kolkata Chapter</p>
+                <p class="pub-bio">2021 : 2nd position nationally in Mini-olympiad, IEEE GRSS Kolkata Chapter</p>
+                <p class="pub-bio">2021 : 3rd position nationally Remote Sensing Talkathon, IEEE GRSS Kolkata Chapter </p>
+            </div>
+
+            <div id="projects">
+                <h2 class="bio-head"><u>RESEARCH</u></h2>
+                <p class="pub-bio">Now : Application of autoencoders and feature engineering on MNIST</p>
+                <p class="pub-bio">2020-Now : Multi-Attention Based Sentiment Analysis Using Learner Decoder (Paper under Progress)</p>
+                <p class="pub-bio">2017-2018 : Textual Content Retrieval from Filled-in Form Images</p>
+                <p class="pub-bio">2014-2016 : Rational elicitation of cold-sensitive phenotypes</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+
+    
+</body>
+</html>
